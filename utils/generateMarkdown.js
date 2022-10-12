@@ -20,11 +20,11 @@ function renderLicenseLink(license) {
   if (!license) {
     return ''
   } else if (license === 'MIT License') {
-    return 'https://choosealicense.com/licenses/mit/'
+    return 'https://spdx.org/licenses/MIT.html'
   } else if (license === 'Apache License 2.0') {
-    return 'https://www.apache.org/licenses/LICENSE-2.0'
+    return 'https://spdx.org/licenses/Apache-2.0.html'
   } else if (license === 'Mozilla Public License 2.0') {
-    return 'https://www.mozilla.org/en-US/MPL/2.0/' 
+    return 'https://spdx.org/licenses/MPL-2.0.html' 
   } else {
     return 'Oh no it looks like the link to our license isn\'t working properly.'
   }
@@ -36,11 +36,11 @@ function renderLicenseSection(license) {
   if (!license) {
     return '' 
   } else if (license === 'MIT License') {
-    return 'MIT License is the best'
+    return 'The MIT License allows anyone to make a copy of this software. With all copies or substantial portions of the software they copyright notice shall be included. Ensuring those who created the intellectual property are appropriately acknowledged. Finally these authors are not liable and is provided without warranty. Read the full license with the link above.'
   } else if (license === 'Apache License 2.0') {
-    return 'Actually the Apache License 2.0'
+    return 'The Apache License 2.0 authors who created the copyright and/or patent/s grant those who wish to use it their license. Those that use this software must adhere to license\'s redistribution causes and may add their own copyright statement to modifications and may provide additional or different license terms and conditions. Trademarks are not granted permission through this license. Finally these authors are not liable and is provided "AS IS". Read the full license with the link above.'
   } else if (license === 'Mozilla Public License 2.0') {
-    return 'They cant be! Mozilla Public License 2.0 is the best' 
+    return 'Notable copyleft Mozilla Public License 2.0 is conditioned on making available source code of licensed files and modifications of those files under the same license. Considered protective or reciprocal with the aim of keeping the source code open and to acknowledge the authors of the code. Finally authors are not liable and is provided on an "as is" basis, without warranty of any kind. Read the full license with the link above.' 
   } else {
     return 'Sorry about this. The section we had prepared for our license has gone missing. We will put out a missing section report soon!'
   }
