@@ -23,6 +23,8 @@ To install this project and generate README files you will first need to clone t
 
 Once installed you can change the file name of the README on line 69 of 'index.js'. When you are happy with the file name run 'node ./index.js'. Then follow the prompts to explain your project.  
 
+Here is a quick video explaining how the application works. https://drive.google.com/file/d/1jFzTj0Yo2a_GFlNfMtMtG1Ws7cJAdVep/view?usp=sharing
+
 ## Contribution
 
 I would like to give credit to my bootcamp's instructors Chee and Ignacio.
